@@ -1,0 +1,59 @@
+@use './_var' as *
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap')
+
+*,
+*::before,
+*::after
+    box-sizing: border-box
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+img
+    margin: 0
+
+html:focus-within
+    scroll-behavior: auto
+
+body
+    min-height: 100vh
+    font-family: "Red Hat Display", sans-serif
+    font-size: $fs-400
+    font-weight: $fw-400
+    color: $clr-neutral-400
+    background: $clr-primary-200
+    line-height: calc(26 / 16)
+    display: grid
+    place-items: center
+    text-rendering: optimizeSpeed
+
+h2
+    line-height: 1.1
+    font-size: $fs-700 
+
+button
+    font: inherit
+    outline: none
+    border: none
+
+a:not([class])
+    text-decoration-skip-ink: auto
+
+img
+    max-width: 100%
+    display: block
+
+@media (prefers-reduced-motion: reduce)
+    html:focus-within
+        scroll-behavior: auto
+    
+    *,
+    *::before,
+    *::after
+        animation-duration: 0.01ms !important
+        animation-iteration-count: 1 !important
+        transition-duration: 0.01ms !important
+        scroll-behavior: auto !important

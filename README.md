@@ -9,11 +9,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
+---
 
 ## Overview
 
@@ -22,3 +20,24 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 Desktop:
 
 ![Final Desktop](./final/desktop.png)
+
+### Links
+- [Live Site URL](https://dsaghicha-order-component.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/order-component-using-react-BJ22dmSBc)
+
+---
+
+## My process
+
+### Built with
+- React
+- SASS
+- Cube CSS
+
+---
+
+## Author
+
+### DSAghicha
+- [Github](https://github.com/DSAghicha)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/DSAghicha)
